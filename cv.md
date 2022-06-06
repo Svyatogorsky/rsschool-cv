@@ -2,7 +2,8 @@
 
 ## Contacts
 
-**Telegram**: [https://t.me/facelesshandsome][@facelesshandsome]
+**Telegram**: (@facelesshandsome)[https://t.me/facelesshandsome]
+---
 **Phone**: 8-912-961-14-92
 
 ## About me
