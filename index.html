@@ -54,22 +54,28 @@
   <main class="page-main">
     <div class="page-main__wrapper container">
       <h1 class="main-title">Eugene Svyatogorsky</h1>
-      <section id="contacts" class="contacts">
-        <div class="contacts__wrapper">
-          <h2 class="section-title">Contacts</h2>
-          <ul class="contacts__list">
-            <li class="contacts__list-item">
-              <a href="#" class="contacts__list-link">VK</a>
-            </li>
-            <li class="contacts__list-item">
-              <a href="#" class="contacts__list-link">Telegram</a>
-            </li>
-            <li class="contacts__list-item">
-              <a href="#" class="contacts__list-link">Phone</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <div class="section__column">
+        <section class="avatar">
+          <h2 class="section-title visually-hidden">Avatar</h2>
+          <img class="avatar__image" src="../rsschool-cv/source/image/2egdu74p8WQ.jpg" width="500" height="500" alt="Моя фотография">
+        </section>
+        <section id="contacts" class="contacts">
+          <div class="contacts__wrapper">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="contacts__list">
+              <li class="contacts__list-item">
+                <a href="https://vk.com/watchyoucry" class="contacts__list-link">VK</a>
+              </li>
+              <li class="contacts__list-item">
+                <a href="https://t.me/facelesshandsome" class="contacts__list-link">Telegram</a>
+              </li>
+              <li class="contacts__list-item">
+                <a href="tel:+79129611492" class="contacts__list-link">Phone: 8 912 961-14-92</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
       <section id="about" class="about">
         <div class="about__wrapper">
           <h2 class="section-title">About me</h2>
@@ -84,7 +90,7 @@
           <ul class="skills__list">
             <li class="skills__list-item">HTML</li>
             <li class="skills__list-item">CSS/SASS</li>
-            <li class="skills__list-item">JS(in the process of learning)</li>
+            <li class="skills__list-item">JS (in the process of learning)</li>
           </ul>
         </div>
       </section>
@@ -105,7 +111,7 @@
           <h2 class="section-title">Education</h2>
           <ul class="education__list">
             <li class="education__list-item">College by speciality information system.</li>
-            <li class="education__list-item">Courses of HTML Academy</li>
+            <li class="education__list-item">Courses of HTML Academy: <a class="project-link" href="https://github.com/Svyatogorsky/1411119-nerds-31">my project</a></li>
           </ul>
         </div>
       </section>
@@ -123,9 +129,13 @@
   <footer class="main-footer">
     <div class="container">
       <div class="main-footer__wrapper">
-        <a href="#" class="github-link">Github</a>
+        <a href="https://github.com/Svyatogorsky" class="github-link">
+          <img src="./source/image/github-logo.png" width="50" height="50" alt="Логотип гитхаб">
+        </a>
         <p class="create-app">2022</p>
-        <a href="#" class="course-link">Course</a>
+        <a href="https://rs.school/js/" class="course-link">
+          <img src="./source/image/rs_logo.svg" width="50" height="50" alt="Логотип RS School">
+        </a>
       </div>
     </div>
   </footer>

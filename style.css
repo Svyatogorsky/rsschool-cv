@@ -19,7 +19,174 @@
   min-height: 100%;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.main-title,
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-header {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navigation__link {
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.navigation__link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.navigation__link:active {
+  opacity: 0.5;
+}
+
+.section__column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  width: 50%;
+}
+
+.avatar__image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.contacts {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .avatar {
+    width: 100%;
+  }
+}
+
+.contacts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts__list-item {
+  margin-bottom: 20px;
+}
+
+.contacts__list-link {
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
+.contacts__list-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.contacts__list-link:active {
+  opacity: 0.5;
+}
+
+.skills__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills__list-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: gray;
+  color: white;
+}
+
+pre {
+  background-color: gray;
+  color: white;
+}
+
+.education__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.education__list-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: gray;
+  color: white;
+}
+
+.project-link {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: white;
+}
+
+.languages__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.languages__list-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: gray;
+  color: white;
+}
+
+.main-footer {
+  margin-bottom: 20px;
+}
+
+.main-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
